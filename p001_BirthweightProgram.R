@@ -40,12 +40,12 @@ library(readxl)
 
 # Establish the absolute path to the directory you are working out of
 root <- "<insert root to working directory>"
-root <- "/Users/sarahbird/Library/CloudStorage/OneDrive-TheUniversityofColoradoDenver/Dabelea/Bird/BWProgram"
+
 # Set the working directory to the root destination
 setwd(root) 
 # Call the source functions into the session
 source("<path-to-where-this-file-is-saved>/p001_BirthweightFunctionFiles.R")
-source(here::here(root, "progs", "p001_BirthweightProgram.R"))
+
 
 
 #######################################################
